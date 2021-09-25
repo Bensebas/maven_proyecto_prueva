@@ -10,6 +10,11 @@ public class Main {
 		Scanner LectorN = new Scanner(System.in);
 		int opcion = 0;
 		String ter = " ";
+		
+		AutoImportado autoimportado1 = new AutoImportado();
+		
+
+		Auto Datos[] = new Auto[5];
 
 		do {
 			System.out.println("#################################");
@@ -48,7 +53,7 @@ public class Main {
 
 				break;
 			case 4:
-				System.out.println("Ingrese el número de placa del Auto");
+				System.out.println("");
 
 				break;
 
